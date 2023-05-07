@@ -1,0 +1,445 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+.header-logo a{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.42px;
+    color: #000000;
+margin: 0 30px;
+}
+
+.btn1{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.42px;
+    color: #000000;
+background: none;
+    border:none;
+    margin: 0 20px 0 0;
+}
+.btn2{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.42px;
+    color: #161320;
+    background: transparent;
+    border:none;
+}
+#header{
+    background: #E5E5E5;
+    padding: 20px 0;
+}
+body{
+    font-family: sans-serif;
+    background: #100E14;
+}
+.hero-text h1{
+    font-weight: 400;
+    font-size: 53px;
+    line-height: 73px;
+    text-align: center;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+margin: 50px 0 30px 0;
+}
+.hero-text h3{
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.hero-btn{
+    width: 170px;
+    height: 50px;
+    background: #FF4343;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+.hero-btn a{
+    color: #FFFFFF;
+}
+button{
+    border:none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.hero-text h4{
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-photo{
+    display: flex;
+    justify-content: center;
+    margin: 70px 0 0 0;
+}
+.hero-img img{
+    position: absolute;
+    right: 250px;
+}
+.about-text h1{
+    font-weight: 400;
+    font-size: 58px;
+    letter-spacing: 1.92px;
+    color: #FFFFFF;
+    margin: 0 0 20px 0;
+    width: 442px;
+}
+.about-text p{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    letter-spacing: 1.08px;
+    width: 452px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.about-photo{
+    display: flex;
+    margin: 150px 0 0 0;
+}
+.about-text{
+    margin: 0 150px 0 0;
+}
+.about{
+    display: flex;
+    align-items: center;
+}
+.about-img img{
+    position: absolute;
+    right: 175px;
+}
+body,html{
+    scroll-behavior: smooth;
+}
+.product-img img{
+    position: absolute;
+}
+.product{
+    display: flex;
+    align-items: center;
+}
+
+.product-text {
+    margin: 0 0 0 230px;
+}
+
+.product-text h1{
+    font-weight: 400;
+    font-size: 58px;
+    letter-spacing: 1.92px;
+    color: #FFFFFF;
+    margin: 0 0 20px 0;
+}
+.product-text p{
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 38px;
+    letter-spacing: 1.08px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 542px;
+}
+span{
+    color: white;
+}
+#product{
+    margin: 100px 0 0 0;
+}
+.title h1{
+    font-weight: 400;
+    font-size: 54px;
+    letter-spacing: 3.2px;
+    color: #FFFFFF;
+    margin:0 0 20px 0;
+}
+.title p{
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 38px;
+    letter-spacing: 1.08px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 526px;
+}
+.about-one{
+    display: flex;
+    align-items: center;
+}
+.photo1{
+    margin: 0 0 0 150px;
+}
+#about-one{
+    margin: 180px 0 0 0;
+}
+.subtitle h1{
+    font-weight: 400;
+    font-size: 58px;
+    letter-spacing: 1.92px;
+    color: #FFFFFF;
+margin: 0 0 20px 0;
+}
+.subtitle p{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+   letter-spacing: 1.08px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 530px;
+}
+.product-one{
+    display: flex;
+    align-items: center;
+}
+.subtitle{
+    margin: 0 0 0 200px;
+}
+#product-one{
+    margin: 180px 0 0 0;
+}
+.swiper-text h1{
+    font-weight: 400;
+    font-size: 61px;
+    line-height: 83px;
+    letter-spacing: 2.56px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 510px;
+}
+.swiper-line{
+    width: 130px;
+    height: 4px;
+    background: #FF4343;
+    margin: 20px 0;
+}
+.swiper-text p{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.42px;
+margin: 0 0 30px 0;
+    color: rgba(255, 255, 255, 0.5);
+    width: 617px;
+}
+#swiper{
+    margin: 120px 0 0 0;
+}
+.swiper-title h1{
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 35px;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+}
+.swiper-title p{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+    margin: 5px  0 0 0;
+}
+.swiper-title h6{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    color: rgba(255, 255, 255, 0.65);
+}
+.swiper-title {
+    position:relative;
+    margin-top: -170px;
+    padding: 0 0 0 30px;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.element-text h4{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: #8BFFB0;
+    margin: 0 0 20px 0;
+}
+.element-text h1{
+    font-weight: 400;
+    font-size: 58px;
+    text-align: center;
+    letter-spacing: 1.92px;
+    color: #FFFFFF;
+    width: 797px;
+    margin: 10px 0;
+}
+.element-text p{
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 910px;
+    margin: 25px 0 0 0;
+}
+.element img{
+    margin: 80px 0 0 0;
+}
+#element{
+    margin: 100px 0 0 0;
+}
+.what-text h1{
+    font-weight: 400;
+    font-size: 63px;
+    letter-spacing: 2.1px;
+    color: #FFFFFF;
+
+}
+.what-text p{
+    font-weight: 400;
+    font-size: 27px;
+    letter-spacing: 0.42px;
+    color: rgba(255, 255, 255, 0.7);
+    width: 730px;
+    height: 37px;
+}
+.what-btn{
+    background: #FF4343;
+    height: 66px;
+    width: 281px;
+    margin: 20px 0 30px 0;
+    font-size: 20px;
+}
+.what-btn a{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.what-text{
+    background: #1D1B24;
+    border-radius: 30px;
+    width: 1120px;
+    height: 433px;
+}
+.course h1{
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: 1.92px;
+    color: #FFFFFF;
+}
+.course-img img{
+    position: absolute;
+}
+.course-title{
+    position: relative;
+    margin-top: -370px;
+   margin-left: 280px;
+}
+.course-title h2{
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 36px;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+}
+.course-title p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+    width: 302px;
+    margin: 20px 0;
+}
+.course-title h3{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 20px;
+    letter-spacing: 0.6px;
+    color: #FFFFFF;
+    margin-top: 70px;
+    margin-left: 130px;
+}
+.course-title img {
+margin-left: 250px;
+    margin-top: -20px;
+}
+.course-photo{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+#course{
+    margin: 150px 0 0 0;
+}
+.footer-block h2{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+margin: 50px 0;
+}
+.footer-block a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 10px 0;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+.footer-blocks{
+    display: flex;
+    margin-top: 100px;
+}
+.footer-block{
+    margin: 0 50px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer{
+    margin: 100px 0;
+}
